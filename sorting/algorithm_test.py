@@ -7,6 +7,8 @@ scrambled_list = [random.randint(0, 1000000) for i in range(0, 16384)]
 scrambled_list_1 = [random.randint(0, 1000000) for i in range(0, 16384)]
 scrambled_list_2 = [random.randint(0, 1000000) for i in range(0, 16384)]
 
+# Bubble sort is ommited due to very long runtimes.
+
 # start_time = time.time()
 # bubble_sort.bubble_sort(scrambled_list)
 # print(f"Bubble Sort: {time.time() - start_time}")
